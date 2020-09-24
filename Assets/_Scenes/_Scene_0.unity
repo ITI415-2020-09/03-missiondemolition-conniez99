@@ -258,10 +258,10 @@ MonoBehaviour:
   uitLevel: {fileID: 714144833}
   uitShots: {fileID: 632909750}
   uitButton: {fileID: 804395956}
-  castlePos: {x: 50, y: -9.5, z: 0}
+  castlePos: {x: 40, y: -9.5, z: 0}
   castles:
-  - {fileID: 6498516170466750111, guid: f523096b9350f61488cf1dbe9ecb548b, type: 3}
   - {fileID: 6498516170466750111, guid: 3ebd5237a8878c84389c6b50cd21fc75, type: 3}
+  - {fileID: 6498516170466750111, guid: f523096b9350f61488cf1dbe9ecb548b, type: 3}
   - {fileID: 6498516170466750111, guid: 9df7fc80590d49343a21fed88758067b, type: 3}
   - {fileID: 6498516170466750111, guid: e016c32ed871ec144a0ee70bdcf89398, type: 3}
   level: 0
@@ -1107,7 +1107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabProjectile: {fileID: 3586871668727363713, guid: c3ddaf202f482de4c99f4c279b5210de, type: 3}
-  velocityMult: 8
+  velocityMult: 10
   launchPoint: {fileID: 0}
   launchPos: {x: 0, y: 0, z: 0}
   projectile: {fileID: 0}
@@ -1152,9 +1152,9 @@ LineRenderer:
   m_GameObject: {fileID: 1837333143}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
-  m_MotionVectors: 0
+  m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
@@ -1185,7 +1185,6 @@ LineRenderer:
   m_SortingOrder: 0
   m_Positions:
   - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 1}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -1194,7 +1193,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0.2098697
         inSlope: 0
         outSlope: 0
         tangentMode: 0
