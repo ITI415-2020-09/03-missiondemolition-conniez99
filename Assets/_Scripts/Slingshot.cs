@@ -69,7 +69,7 @@ public class Slingshot : MonoBehaviour
 
         //Get the current mouse position in 2D screen coordinates
         Vector3 mousePos2D = Input.mousePosition;
-        mousePos2D.x = -Camera.main.transform.position.x;
+        mousePos2D.z = -Camera.main.transform.position.z;
         Vector3 mousePos3D = Camera.main.ScreenToWorldPoint(mousePos2D);
 
         //Find the delta from the launchPos to the mousePos3D
